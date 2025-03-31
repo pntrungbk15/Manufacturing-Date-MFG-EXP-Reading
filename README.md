@@ -1,31 +1,32 @@
-# Nghiên Cứu và Ứng Dụng YOLOv11 trong Đọc Ngày Sản Xuất (MFG/EXP)
+# Research and Application of YOLOv11 in Manufacturing Date (MFG/EXP) Reading
 
-## Giới Thiệu
+## Introduction
 
-Tôi đã thực hiện một dự án nghiên cứu và ứng dụng mô hình phát hiện đối tượng YOLOv11, tập trung vào việc khám phá kiến trúc, hiệu suất và khả năng huấn luyện của mô hình này. Công việc của tôi bao gồm việc triển khai YOLOv11 trong một ứng dụng thực tế có tên "Manufacturing Date (MFG/EXP) Reading". Trong dự án này, tôi sử dụng YOLOv11 để tự động phát hiện và đọc thông tin ngày sản xuất (MFG) cùng ngày hết hạn (EXP) trên các sản phẩm, nhằm hỗ trợ tối ưu hóa quy trình quản lý kho hàng và kiểm soát chất lượng. Đây là một nỗ lực kết hợp giữa nghiên cứu lý thuyết và áp dụng thực tiễn, thể hiện sự quan tâm của tôi đến lĩnh vực thị giác máy tính và trí tuệ nhân tạo.
+I conducted a research project focused on the YOLOv11 object detection model, exploring its architecture, performance, and training capabilities. My work involved implementing YOLOv11 in a practical application called "Manufacturing Date (MFG/EXP) Reading." In this project, I utilized YOLOv11 to automatically detect and extract manufacturing dates (MFG) and expiration dates (EXP) from product images, aiming to optimize warehouse management and quality control processes. This effort combines theoretical research with real-world application, reflecting my passion for computer vision and artificial intelligence.
 
-## Bối Cảnh
+## Background
 
-Phát hiện đối tượng là một nhiệm vụ quan trọng trong thị giác máy tính, với ứng dụng từ xe tự hành đến quản lý sản xuất. YOLOv11, phiên bản mới nhất ra mắt năm 2024, mang lại hiệu suất vượt trội trong việc phát hiện đối tượng nhanh và chính xác. Trong dự án "Manufacturing Date (MFG/EXP) Reading", tôi đã áp dụng YOLOv11 để tự động hóa việc đọc ngày tháng trên sản phẩm, hỗ trợ quản lý chuỗi cung ứng và kiểm soát chất lượng.
+Object detection is a critical task in computer vision, with applications ranging from autonomous vehicles to production management. YOLOv11, the latest version released in 2024, offers superior performance in fast and accurate object detection. In the "Manufacturing Date (MFG/EXP) Reading" project, I applied YOLOv11 to automate the reading of dates on products, enhancing supply chain management and quality assurance.
 
-## Tổng Quan Dự Án
+## Project Overview
 
-Dự án này bao gồm:
+The project encompasses:
 
-- **Nghiên cứu lý thuyết**: Phân tích kiến trúc, hiệu suất và quá trình huấn luyện của YOLOv11.
-- **So sánh phiên bản**: Đánh giá sự cải tiến của YOLOv11 so với YOLOv5.
-- **Ứng dụng thực tế**: Sử dụng YOLOv11 trong dự án "Manufacturing Date (MFG/EXP) Reading" để phát hiện và trích xuất thông tin ngày sản xuất/hết hạn từ hình ảnh sản phẩm.
+- **Theoretical Research**: Analyzing the architecture, performance, and training process of YOLOv11.
+- **Version Comparison**: Evaluating the improvements of YOLOv11 over YOLOv5.
+- **Practical Application**: Implementing YOLOv11 in the "Manufacturing Date (MFG/EXP) Reading" project to detect and extract manufacturing/expiration date information from product images.
 
-## Ứng Dụng Thực Tế: Manufacturing Date (MFG/EXP) Reading
+## Practical Application: Manufacturing Date (MFG/EXP) Reading
 
-Trong dự án này, tôi đã:
+In this project, I:
 
-- **Phát hiện nhãn**: Sử dụng YOLOv11 để xác định vị trí nhãn chứa thông tin MFG/EXP trên sản phẩm.
-- **Trích xuất thông tin**: Kết hợp OCR để đọc và giải mã ngày tháng từ hình ảnh.
-- **Tự động hóa**: Tối ưu hóa quy trình kiểm tra kho hàng, giảm thiểu sai sót và tăng hiệu suất.
+- **Label Detection**: Used YOLOv11 to locate labels containing MFG/EXP information on products.
+- **Information Extraction**: Integrated OCR to read and decode dates from the images.
+- **Automation**: Optimized warehouse inspection processes, minimizing errors and boosting efficiency.
+Results
 
-## Kết quả
-- **Cấu trúc model:**
+## Results
+- **Model Structure:**
  <!-- ![Printing area position offsets](assets/printing_area_position_offset_result.jpg) -->
   <img src="assets/yolov11.jpg" alt="Printing area position offsets" width=60%>
 
@@ -46,8 +47,8 @@ Trong dự án này, tôi đã:
   <img src="assets/10.jpg" alt="Printing area position offsets" width=60%>
 
 
-## Kết Luận
+## Conclusion
 
-Nghiên cứu và ứng dụng YOLOv11 vào "Manufacturing Date (MFG/EXP) Reading" không chỉ giúp tôi hiểu sâu hơn về phát hiện đối tượng mà còn thể hiện khả năng áp dụng kiến thức lý thuyết vào thực tiễn. Đây là minh chứng cho kỹ năng nghiên cứu, triển khai giải pháp AI và giải quyết vấn đề thực tế của tôi.
+The research and application of YOLOv11 in the "Manufacturing Date (MFG/EXP) Reading" project not only deepened my understanding of object detection but also demonstrated my ability to apply theoretical knowledge to practical solutions. This project serves as evidence of my skills in research, AI solution deployment, and real-world problem-solving.
 
 ---
